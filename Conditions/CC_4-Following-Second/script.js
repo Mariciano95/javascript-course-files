@@ -2,8 +2,8 @@ let hours = parseInt(prompt("Enter the hours:")),
     minutes = parseInt(prompt("Enter the minutes:")),
     seconds = parseInt(prompt("Enter the seconds:"));
 
-if ((hours >= 0 && hours <= 22) &&
-    (minutes >= 0 && minutes <= 58) &&
+if ((hours >= 0 && hours <= 23) &&
+    (minutes >= 0 && minutes <= 59) &9
     (seconds >= 0 && seconds <= 58)) {
     seconds++;
     if (seconds === 60) {
