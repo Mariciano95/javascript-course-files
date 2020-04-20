@@ -3,8 +3,8 @@ let hours = parseInt(prompt("Enter the hours:")),
     seconds = parseInt(prompt("Enter the seconds:"));
 
 if ((hours >= 0 && hours <= 23) &&
-    (minutes >= 0 && minutes <= 59) &9
-    (seconds >= 0 && seconds <= 58)) {
+    (minutes >= 0 && minutes <= 59) &
+    (seconds >= 0 && seconds <= 59)) {
     seconds++;
     if (seconds === 60) {
         seconds = 0;
