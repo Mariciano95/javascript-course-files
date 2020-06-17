@@ -106,11 +106,6 @@ let choice;
 // Main program loop
 // Display options until the user chooses to quit
 while (choice !== "0") {
-    let choices = "\n1 : Show links";
-    choices += "\n2 : Add a link";
-    choices += "\n3 : Remove a link";
-    choices += "\n0 : Quit";
-    choice = prompt(`Choose an option: ${choices}`);
 
     switch (choice) {
         case "1": {
